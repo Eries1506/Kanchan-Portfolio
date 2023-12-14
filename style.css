@@ -4,7 +4,7 @@
     font-family: 'Afacad', 'sans-serif';
 
     box-sizing: border-box;
-    background-color: rgb(8, 5, 79);
+    background-color: rgb(3, 2, 27);
     color:white;
 }
 .hero{
@@ -124,7 +124,7 @@ h4{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: rgb(8, 7, 59);
+    background-color: rgb(3, 2, 27);
     color: white;
     top:6px;
     right:6px;
@@ -134,7 +134,7 @@ h4{
 .about{
     width:100%;
     padding: 100px 0px;
-    background-color: rgb(8, 5, 79);;
+    background-color: rgb(3, 2, 27);
 }
 .about img{
     height: auto;
@@ -142,6 +142,7 @@ h4{
 }
 .about-text{
     width: 550px;
+    background-color:rgb(3, 2, 27);
 }
 .main{
     width: 1130px;
@@ -154,11 +155,13 @@ h4{
 .about-text h2{
     color: white;
     font-size:75px;
+    background-color:rgb(3, 2, 27);
     text-transform: capitalize;
     margin-bottom: 20px;
 }
 .about-text h5{
     color: white;
+    background-color:rgb(3, 2, 27);
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
@@ -182,7 +185,7 @@ button{
     font-weight: bold;
 }
 button:hover{
-    background-color: rgb(8, 5, 79);
+    background-color: rgb(3, 2, 27);
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -193,7 +196,7 @@ button:hover{
     transform: scale(1.2);
 }
 .service{
-    background: rgb(8, 5, 79);;
+    background: rgb(3, 2, 27);
     width: 100%;
     padding: 100px 0px;
 
@@ -212,36 +215,25 @@ button:hover{
     min-height: 400px;
 }
 .card{
-    height: 365px;
+    height: 265px;
     width: 335px;
     padding: 20px 35px;
     background: yellow;
     border-radius: 20px;
-     margin: 15px;
-     position: relative;
-     overflow: hidden;
-     text-align: center;
-}
-.card i{
-    font-size: 50px;
-    display: block;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
     text-align: center;
-    background-color:yellow;
-    margin: 25px 0px;
-    color: rgb(4, 4, 53);
 }
-.card i:hover{
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: black;
-}
+
 h5{
     color: black;
     background-color:yellow;
-    font-size: 23px;
+    font-size: 33px;
     margin-bottom: 15px;
+}
+.pra{
+    background-color:yellow;
 }
 .pra p{
     color: black;
@@ -251,8 +243,8 @@ h5{
     margin-bottom: 20px;
 }
 .card .button{
-    color: rgb(8, 5, 79);;
-    background-color: white;
+    color: yellow;
+    background-color: rgb(3, 2, 27);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -275,7 +267,7 @@ h5{
 .contact-me{
     width: 100%;
     height: 290px;
-    background: rgb(8, 5, 79);
+    background: rgb(3, 2, 27);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -288,8 +280,8 @@ h5{
     margin-bottom: 25px;
 }
 .contact-me .button-two{
-    color: yellow;
-    background-color: black;
+    color: rgb(3, 2, 27);
+    background-color: yellow;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -299,7 +291,7 @@ h5{
     cursor: pointer;
 }
 .contact-me .button-two:hover{
-    background-color: rgb(8, 5, 79);
+    background-color: rgb(3, 2, 27);
     color: white;
     text-decoration: none;
     border: 2px solid transparent;
@@ -314,7 +306,7 @@ footer{
     position: relative;
     width: 100%;
     height: 400px;
-    background: rgb(8, 5, 79);;
+    background: rgb(3, 2, 27);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -335,6 +327,7 @@ footer p:nth-child(2){
 }
 .social{
     display: flex;
+    background-color:rgb(3, 2, 27);
 }
 .social a{
     width: 45px;
@@ -342,10 +335,9 @@ footer p:nth-child(2){
     display: flex;
     align-items: center;
     justify-content: center;
-    background: midnightblue;
     border-radius: 50%;
     margin: 22px 10px;
-    color: white;
+    color:yellow;
     text-decoration: none;
     font-size: 20px;
 }
@@ -355,7 +347,12 @@ footer p:nth-child(2){
 }
 .end{
     position: absolute;
-    color: midnightblue;
+    color: white;
     bottom: 35px;
     font-size: 14px;
 }
+.content img{
+    height: auto;
+    width: 200px;
+    float:right;
+} 
